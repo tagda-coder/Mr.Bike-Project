@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'kairos-sans';
+  src: url("./assets/fonts/Kairos-sans/Kairos-Sans.ttf");
+}
+
+@font-face {
+  font-family: 'gilroy-medium';
+  src: url("./assets/fonts/Gilroy/Gilroy-Medium.ttf");
+}
+
+
+
+@theme{
+  --font-kairos: 'kairos-sans', sans-serif;
+  --font-gilroy: 'gilroy-medium', sans-serif;
+}
