@@ -37,8 +37,8 @@ function BottomContainer() {
   return (
     <div className='w-full h-[35%] text-black z-10 flex  flex-col items-center mt-16'>
         <div className="top-part w-[60%] h-[80%] flex flex-col justify-center items-center">
-          <h1 className='font-TTBackword text-[3rem] selection:bg-orange-500 selection:text-black'>FULL THROTTLE</h1>
-          <p className='text-[1rem] text-center tracking-tight font-TTBackword text-black/35 selection:bg-yellow-300 selection:text-black'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam architecto labore voluptate rem vitae itaque, repellat tenetur enim est possimus explicabo culpa, nulla rerum repellendus autem aliquam. Soluta, saepe aliquam.explicabo culpa, nulla rerum repellendus autem aliquam. Soluta, saepe aliqua saepe aliquam.explicabo </p>
+          <h1 className='font-TTBackword text-[3rem] selection:bg-orange-500 selection:text-black'>Own The Road</h1>
+          <p className='text-[1rem] text-center tracking-tight font-TTBackword text-black/35 selection:bg-yellow-300 selection:text-black'>Ready to ride? Browse our fleet of bikes and find your perfect match for a day of discovery or a weekend getaway. Your next adventure starts now! <br /> Skip the traffic and the hassle. Book your bike in minutes and start your trip.</p>
           <button className='cursor-pointer px-28 py-2 bg-black text-white rounded-3xl font-TTBackword mt-2 text-[0.9rem] selection:text-yellow-400 hover:bg-zinc-800'>CUSTOMIZE</button>
         </div>
          
