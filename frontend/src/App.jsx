@@ -1,11 +1,12 @@
 import React from 'react';
 import Page from './pages/Page.jsx';
+import Application from './pages/Application.jsx';
 
 // Main App component that wraps all other components
 const App = () => {
   return (
-    <div className="w-full h-screen bg-black text-white min-h-screen font-sans overflow-hidden [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] ">
-      <Page />
+    <div className="main-container w-full h-screen">
+      <Application />
     </div>
   );
 };

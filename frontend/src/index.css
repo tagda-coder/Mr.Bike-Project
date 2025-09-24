@@ -9,10 +9,33 @@
   font-family: 'gilroy-medium';
   src: url("./assets/fonts/Gilroy/Gilroy-Medium.ttf");
 }
+@font-face {
+  font-family: 'gilroy-italic';
+  src: url("./assets/fonts/Gilroy/Gilroy-RegularItalic.ttf");
+}
+@font-face {
+  font-family: 'kepler-medium';
+  src: url("./assets/fonts/Gilroy/Gilroy-Medium.ttf");
+}
 
-
+@font-face {
+  font-family: 'myfont';
+  src: url("./assets/fonts/NewOne/Jhiaxus Bold Italic.otf");
+}
+@font-face {
+  font-family: 'myfontItalic';
+  src: url("./assets/fonts/NewOne/Jhiaxus Italic.otf");
+}
+@font-face {
+  font-family: 'TTBackword';
+  src: url("./assets/fonts/Othersfont/TT Backwards Sans Trial Bold.otf");
+}
 
 @theme{
   --font-kairos: 'kairos-sans', sans-serif;
   --font-gilroy: 'gilroy-medium', sans-serif;
+  --font-gilroyItalic: 'gilroy-italic', sans-serif;
+  --font-myFont: 'myfont', sans-serif;
+  --font-myfontItalic: 'myfontItalic', sans-serif;
+  --font-TTBackword: 'TTBackword', sans-serif;
 }
