@@ -52,7 +52,7 @@ function BottomContainer() {
           </div>
           <div className="mid-part w-[30%] h-full gap-1 flex flex-col items-center justify-end">
             <LuMouse className='text-[1.4rem]'/>
-            <p className='font-TTBackword text-[1rem]'>EXPLORE MORE</p>
+            <p className='font-TTBackword text-[1rem] select-none'>EXPLORE MORE</p>
           </div>
           <div className="right-part w-[30%] h-full flex justify-end">
             <div className="pagination-box w-[30%] h-full bg-black text-white flex items-center justify-around text-[1.5rem]">

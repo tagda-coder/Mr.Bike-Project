@@ -2,7 +2,7 @@ import React from 'react'
 import Sidebar from '../components/Sidebar'
 import Hero2 from '../components/Hero2'
 
-function Application() {
+function LandingPageV2() {
   return (
     <div className='w-full h-screen bg-zinc-700 flex  background-page'>
         <Sidebar />
@@ -11,4 +11,4 @@ function Application() {
   )
 }
 
-export default Application
+export default LandingPageV2;
